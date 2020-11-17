@@ -11,5 +11,4 @@ public class PANWithRegex {
 			System.out.println("Invalid PAN");
 		}
 	}
-
 }
