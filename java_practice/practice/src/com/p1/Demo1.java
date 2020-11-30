@@ -3,7 +3,7 @@ package com.p1;
 public class Demo1 {
 
 	public static void main(String[] args) {
-		String s="a19b4c5";
+		String s="a19b11c1";
 		char[] chars= s.toCharArray();
 		StringBuilder sb=new StringBuilder();
 		int i=0;
@@ -26,6 +26,7 @@ public class Demo1 {
 			sb.append(ch+"");
 			}
 			i+=2;
+			
 		}while(i<chars.length);
 
 		System.out.println(sb);
