@@ -52,11 +52,23 @@ public class Demo1 {
 		s4=s4.trim();
 		System.out.println(s4);
 		
-		String s5="Hello hi Good Evening, Ready to skip or jump off";
+		//all words capital
+		String s5="Hello hi good evening, Ready to skip or jump off";
 		String s6[]=s5.split(" ");
 		for (int i = 0; i < s6.length; i++) {
-			System.out.println(s6[i].toUpperCase());
+			System.out.print(s6[i].toUpperCase()+" ");
 		}
+		
+		//first letter capital letter of each word
+		System.out.println("\n");
+		for(int j=0; j<s6.length; j++) {
+			String s7 = s6[j].substring(0,1).toUpperCase()+s6[j].substring(1, s6[j].length());
+			System.out.print(s7);
+			if(j<s6.length-1) {
+				System.out.print(" ");
+			}
+		}
+		System.out.println("\n");
 		
 		s5=s5.replace(" ", "-");
 		System.out.println(s5);
