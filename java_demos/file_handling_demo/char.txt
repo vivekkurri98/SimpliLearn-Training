@@ -1,0 +1,3 @@
+Hello from char stream
+This line will be in new Line
+You don't need to convert when doing char stream
